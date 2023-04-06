@@ -1,0 +1,134 @@
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\appsettings.json
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\LoginApi.exe
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\LoginApi.deps.json
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\LoginApi.runtimeconfig.json
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\LoginApi.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\LoginApi.pdb
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Humanizer.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Dot Net\CrmwebApi\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.csproj.AssemblyReference.cache
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.AssemblyInfoInputs.cache
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.AssemblyInfo.cs
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.csproj.CoreCompileInputs.cache
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.LoginApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginApi.props
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginApi.props
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginApi.props
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\scopedcss\bundle\LoginApi.styles.css
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.csproj.CopyComplete
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.dll
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\refint\LoginApi.dll
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.pdb
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\LoginApi.genruntimeconfig.cache
+C:\Dot Net\CrmwebApi\LoginApi\obj\Debug\net6.0\ref\LoginApi.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\appsettings.Development.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\appsettings.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\LoginApi.exe
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\LoginApi.deps.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\LoginApi.runtimeconfig.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\LoginApi.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\LoginApi.pdb
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Humanizer.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.csproj.AssemblyReference.cache
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.AssemblyInfoInputs.cache
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.AssemblyInfo.cs
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.csproj.CoreCompileInputs.cache
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.LoginApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.build.LoginApi.props
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LoginApi.props
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LoginApi.props
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets.build.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\staticwebassets.development.json
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\scopedcss\bundle\LoginApi.styles.css
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.csproj.CopyComplete
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\refint\LoginApi.dll
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.pdb
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.genruntimeconfig.cache
+E:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\ref\LoginApi.dll

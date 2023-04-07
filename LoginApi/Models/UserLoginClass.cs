@@ -1,15 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LoginApi.Models
 {
     public class UserLoginClass
     {
-        [Key]
-        public int Id { get; set; }
+        [Key()]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Required]
-        public string Username { get; set; }
+        public string? Username { get; set; }
         [Required]
-        public string Password { get; set; }
+        public string? Password { get; set; }
         
     }
 }

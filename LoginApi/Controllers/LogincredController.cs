@@ -37,9 +37,9 @@ namespace LoginApi.Controllers
             return _userDbContext.Logincred.ToList();
         }
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(string username)
         {
-            var deluser= _userDbContext.Logincred.FirstOrDefault(x => x.Id == id);
+            var deluser= _userDbContext.Logincred.FirstOrDefault(x => x.Username == username);
             if (deluser == null)
             {
                 return BadRequest();

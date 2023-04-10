@@ -3,6 +3,7 @@ using LoginApi.Datas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoginApi.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230410070227_createCompanyDetailsTable")]
+    partial class createCompanyDetailsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,44 +56,6 @@ namespace LoginApi.Migrations
                     b.ToTable("Companydetails");
                 });
 
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.Property<int>("PersonId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PersonId"), 1L, 1);
-
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MobileNo")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Photo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("PersonId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Persondetails");
-                });
-
             modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
                 {
                     b.Property<string>("Username")
@@ -111,17 +75,6 @@ namespace LoginApi.Migrations
                     b.HasOne("LoginApi.Models.UserLoginClass", "users")
                         .WithMany()
                         .HasForeignKey("UserId");
-
-                    b.Navigation("users");
-                });
-
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.Navigation("users");
                 });

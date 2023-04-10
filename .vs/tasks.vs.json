@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Properties",
+      "appliesTo": "LoginApi/Properties/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Models",
+      "appliesTo": "LoginApi/Models/",
+      "type": "launch"
+    }
+  ]
+}

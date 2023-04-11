@@ -39,7 +39,7 @@ namespace LoginApi.Controllers
         [HttpDelete]
         public IActionResult Delete(string username)
         {
-            var deluser= _userDbContext.Logincred.FirstOrDefault(x => x.Username == username);
+            var deluser = _userDbContext.Logincred.FirstOrDefault(x => x.Username == username);
             if (deluser == null)
             {
                 return BadRequest();

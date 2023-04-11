@@ -77,55 +77,82 @@ namespace LoginApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Photo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("Photo");
+                    modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
+                        {
+                            b.Property<int>("AccountNo")
+                                .HasColumnType("int");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                            b.Property<string>("BankName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("PersonId");
+                            b.Property<string>("Branch")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("UserId");
+                            b.Property<string>("Nominee")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.ToTable("Persondetails");
-                });
+                            b.Property<string>("UserId")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(450)");
 
-            modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
-                {
-                    b.Property<string>("Username")
-                        .HasColumnType("nvarchar(450)");
+                            b.HasKey("PersonId");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                            b.HasIndex("UserId");
 
-                    b.HasKey("Username");
+                            b.ToTable("Persondetails");
+                        });
 
-                    b.ToTable("Logincred");
-                });
+                    modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
+                        {
+                            b.Property<string>("Username")
+                                .HasColumnType("nvarchar(450)");
 
-            modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                            b.Property<string>("Password")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.Navigation("users");
-                });
+                            b.HasKey("Username");
 
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                            b.ToTable("Logincred");
+                        });
 
-                    b.Navigation("users");
-                });
+                    modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "users")
+                                .WithMany()
+                                .HasForeignKey("UserId");
+
+                            b.Navigation("users");
+                        });
+
+                    modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "users")
+                                .WithMany()
+                                .HasForeignKey("UserId")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
+
+                            b.Navigation("users");
+                            b.Navigation("User");
+                        });
+
+                    modelBuilder.Entity("LoginApi.Models.PurchaseDetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "User")
+                                .WithMany()
+                                .HasForeignKey("UserId")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
+
+                            b.Navigation("User");
+                        });
 #pragma warning restore 612, 618
+                });
         }
     }
 }

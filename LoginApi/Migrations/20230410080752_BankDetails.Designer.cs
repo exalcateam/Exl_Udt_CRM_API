@@ -3,6 +3,7 @@ using LoginApi.Datas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoginApi.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230410080752_BankDetails")]
+    partial class BankDetails
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,65 +23,6 @@ namespace LoginApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-<<<<<<< Updated upstream
-            modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
-                {
-                    b.Property<int>("CompanyId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CompanyId"), 1L, 1);
-
-                    b.Property<string>("CompanyLocation")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CustomerType")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GstNo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Photos")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("CompanyId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Companydetails");
-                });
-
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.Property<int>("PersonId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PersonId"), 1L, 1);
-
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MobileNo")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Photo")
-=======
             modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
                 {
                     b.Property<int>("AccountNo")
@@ -94,7 +37,6 @@ namespace LoginApi.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nominee")
->>>>>>> Stashed changes
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -102,13 +44,6 @@ namespace LoginApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-<<<<<<< Updated upstream
-                    b.HasKey("PersonId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Persondetails");
-=======
                     b.HasKey("AccountNo");
 
                     b.HasIndex("UserId");
@@ -148,7 +83,6 @@ namespace LoginApi.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Purchasedetails");
->>>>>>> Stashed changes
                 });
 
             modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
@@ -165,32 +99,14 @@ namespace LoginApi.Migrations
                     b.ToTable("Logincred");
                 });
 
-<<<<<<< Updated upstream
-            modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("users");
-                });
-
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-=======
             modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
                 {
                     b.HasOne("LoginApi.Models.UserLoginClass", "User")
->>>>>>> Stashed changes
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-<<<<<<< Updated upstream
-                    b.Navigation("users");
-=======
                     b.Navigation("User");
                 });
 
@@ -203,7 +119,6 @@ namespace LoginApi.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
->>>>>>> Stashed changes
                 });
 #pragma warning restore 612, 618
         }

@@ -2231,11 +2231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
+      "projectUniqueName": "E:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
       "projectName": "LoginApi",
-      "projectPath": "C:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
+      "projectPath": "E:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
       "packagesPath": "C:\\Users\\Exalca\\.nuget\\packages\\",
-      "outputPath": "C:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\obj\\",
+      "outputPath": "E:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Exalca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2302,7 +2302,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

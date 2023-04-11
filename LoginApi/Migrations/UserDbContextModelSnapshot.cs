@@ -21,7 +21,6 @@ namespace LoginApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-<<<<<<< Updated upstream
             modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
                 {
                     b.Property<int>("CompanyId")
@@ -78,134 +77,82 @@ namespace LoginApi.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Photo")
-=======
-            modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
-                {
-                    b.Property<int>("AccountNo")
-                        .HasColumnType("int");
+                    b.Property<string>("Photo");
+                    modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
+                        {
+                            b.Property<int>("AccountNo")
+                                .HasColumnType("int");
 
-                    b.Property<string>("BankName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                            b.Property<string>("BankName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Branch")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                            b.Property<string>("Branch")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nominee")
->>>>>>> Stashed changes
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                            b.Property<string>("Nominee")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                            b.Property<string>("UserId")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(450)");
 
-<<<<<<< Updated upstream
-                    b.HasKey("PersonId");
+                            b.HasKey("PersonId");
 
-                    b.HasIndex("UserId");
+                            b.HasIndex("UserId");
 
-                    b.ToTable("Persondetails");
-=======
-                    b.HasKey("AccountNo");
+                            b.ToTable("Persondetails");
+                        });
 
-                    b.HasIndex("UserId");
+                    modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
+                        {
+                            b.Property<string>("Username")
+                                .HasColumnType("nvarchar(450)");
 
-                    b.ToTable("Bankdetails");
-                });
+                            b.Property<string>("Password")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
 
-            modelBuilder.Entity("LoginApi.Models.PurchaseDetails", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                            b.HasKey("Username");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                            b.ToTable("Logincred");
+                        });
 
-                    b.Property<int>("DeliveredDate")
-                        .HasColumnType("int");
+                    modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "users")
+                                .WithMany()
+                                .HasForeignKey("UserId");
 
-                    b.Property<int>("OrderedDate")
-                        .HasColumnType("int");
+                            b.Navigation("users");
+                        });
 
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
+                    modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "users")
+                                .WithMany()
+                                .HasForeignKey("UserId")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
 
-                    b.Property<string>("Product")
-                        .HasColumnType("nvarchar(max)");
+                            b.Navigation("users");
+                            b.Navigation("User");
+                        });
 
-                    b.Property<int>("Rating")
-                        .HasColumnType("int");
+                    modelBuilder.Entity("LoginApi.Models.PurchaseDetails", b =>
+                        {
+                            b.HasOne("LoginApi.Models.UserLoginClass", "User")
+                                .WithMany()
+                                .HasForeignKey("UserId")
+                                .OnDelete(DeleteBehavior.Cascade)
+                                .IsRequired();
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Purchasedetails");
->>>>>>> Stashed changes
-                });
-
-            modelBuilder.Entity("LoginApi.Models.UserLoginClass", b =>
-                {
-                    b.Property<string>("Username")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Username");
-
-                    b.ToTable("Logincred");
-                });
-
-<<<<<<< Updated upstream
-            modelBuilder.Entity("LoginApi.Models.Companydetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("users");
-                });
-
-            modelBuilder.Entity("LoginApi.Models.PersonDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "users")
-=======
-            modelBuilder.Entity("LoginApi.Models.BankDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "User")
->>>>>>> Stashed changes
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-<<<<<<< Updated upstream
-                    b.Navigation("users");
-=======
-                    b.Navigation("User");
-                });
-
-            modelBuilder.Entity("LoginApi.Models.PurchaseDetails", b =>
-                {
-                    b.HasOne("LoginApi.Models.UserLoginClass", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
->>>>>>> Stashed changes
-                });
+                            b.Navigation("User");
+                        });
 #pragma warning restore 612, 618
+                });
         }
     }
 }

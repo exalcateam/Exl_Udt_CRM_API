@@ -10,12 +10,9 @@ namespace LoginApi.Datas
             
         }
         public DbSet<UserLoginClass> Logincred { get; set; }
-<<<<<<< Updated upstream
         public DbSet<Companydetails> Companydetails { get; set; }
         public DbSet<PersonDetails> Persondetails { get; set; }
-=======
         public DbSet<PurchaseDetails> Purchasedetails { get; set; }
         public DbSet<BankDetails> Bankdetails { get; set; } 
->>>>>>> Stashed changes
     }
 }

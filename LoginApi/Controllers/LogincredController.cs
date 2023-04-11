@@ -1,4 +1,5 @@
 ﻿using LoginApi.Datas;
+using LoginApi.IRepositories;
 using LoginApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,36 +11,49 @@ namespace LoginApi.Controllers
     public class LogincredController : ControllerBase
     {
         private readonly UserDbContext _userDbContext;
-        public LogincredController(UserDbContext dbContext)
+        private readonly ICompanyRepository _companyRepository;
+        public LogincredController(ICompanyRepository companyrepository)
         {
-            _userDbContext = dbContext;
+            _companyRepository = companyrepository;
         }
+
+
+
         [HttpPost]
-        public ActionResult<UserLoginClass> Create([FromBody] UserLoginClass newuser)
+        public async Task<IActionResult> Create([FromBody] UserLoginClass newuser)
         {
-            _userDbContext.Logincred.Add(newuser);
-            _userDbContext.SaveChanges();
+            await _companyRepository.createuser(newuser);
             return Ok();
         }
+
+
+
+
         [HttpPost("authentication")]
-        public IActionResult Authentication([FromBody]UserLoginClass checkuser)
+        public async Task<IActionResult> Authentication([FromBody] UserLoginClass checkuser)
         {
-            var auth = _userDbContext.Logincred.FirstOrDefault(x => x.Username == checkuser.Username && x.Password == checkuser.Password);
+            var auth = await _companyRepository.authentication(checkuser);
             if (auth == null)
             {
                 return BadRequest();
             }
-            return Ok(auth);
+            return Ok();
         }
+
+
+
         [HttpGet]
-        public List<UserLoginClass> Get( )
+        public List<UserLoginClass> Get()
         {
-            return _userDbContext.Logincred.ToList();
+            return _companyRepository.getuser();
         }
+
+
+
         [HttpDelete]
-        public IActionResult Delete(string username)
+        public async Task<IActionResult> Delete(string username)
         {
-            var deluser = _userDbContext.Logincred.FirstOrDefault(x => x.Username == username);
+            var deluser = await _companyRepository.deleteuser(username);
             if (deluser == null)
             {
                 return BadRequest();

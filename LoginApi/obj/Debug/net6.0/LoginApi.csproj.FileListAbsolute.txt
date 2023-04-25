@@ -199,3 +199,9 @@ C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\refint\LoginApi.dll
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.pdb
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\LoginApi.genruntimeconfig.cache
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\obj\Debug\net6.0\ref\LoginApi.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\PdfSharpCore.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\HtmlRenderer.Core.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\HtmlRenderer.PdfSharp.Core.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.Core.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.ImageSharp.dll

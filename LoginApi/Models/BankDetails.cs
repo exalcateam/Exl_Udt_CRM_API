@@ -9,13 +9,13 @@ namespace LoginApi.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int AccountNo { get; set; }
         [Required]
-        public string Nominee { get; set; }
+        public string? Nominee { get; set; }
         [Required]
-        public string BankName { get; set; }
+        public string? BankName { get; set; }
         [Required]
-        public string Branch {  get; set; }
-        public string UserId { get; set; }
-        [ForeignKey("UserId")]
-        public virtual UserLoginClass User { get; set; }
+        public string? Branch {  get; set; }
+        public int CompanyId { get; set; }
+        [ForeignKey("CompanyId")]
+        public virtual Companydetails? company { get; set; }
     }
 }

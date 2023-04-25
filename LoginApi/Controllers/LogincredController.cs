@@ -3,6 +3,10 @@ using LoginApi.IRepositories;
 using LoginApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PdfSharpCore;
+using PdfSharpCore.Pdf;
+using TheArtOfDev.HtmlRenderer.PdfSharp;
+
 
 namespace LoginApi.Controllers
 {
@@ -10,7 +14,6 @@ namespace LoginApi.Controllers
     [Route("api/[controller]/[action]")]
     public class LogincredController : ControllerBase
     {
-        private readonly UserDbContext _userDbContext;
         private readonly ICompanyRepository _companyRepository;
         public LogincredController(ICompanyRepository companyrepository)
         {
@@ -33,11 +36,7 @@ namespace LoginApi.Controllers
         public async Task<IActionResult> Authentication([FromBody] UserLoginClass checkuser)
         {
             var auth = await _companyRepository.authentication(checkuser);
-            if (auth == null)
-            {
-                return BadRequest();
-            }
-            return Ok();
+            return Ok(auth);
         }
 
 
@@ -51,16 +50,31 @@ namespace LoginApi.Controllers
 
 
         [HttpDelete]
-        public async Task<IActionResult> Delete(string username)
+        public async Task<IActionResult> Delete([FromBody]string username)
         {
-            var deluser = await _companyRepository.deleteuser(username);
-            if (deluser == null)
-            {
-                return BadRequest();
-            }
-            _userDbContext.Remove(deluser);
-            _userDbContext.SaveChanges();
+            await _companyRepository.deleteuser(username);
             return Ok();
         }
+
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetFile()
+        {
+            var document  = new PdfSharpCore.Pdf.PdfDocument();
+            var html = "<h1>Santhosh M</h1>";
+            PdfGenerator.AddPdfPages(document,html,PageSize.A4);
+            byte[]? response = null;
+            using(MemoryStream stream = new MemoryStream())
+            {
+                document.Save(stream);
+                response = stream.ToArray();
+            }
+            string Filename = "Sample.pdf";
+            return File(response,"application/pdf", Filename);
+        }
+
+
     }
 }

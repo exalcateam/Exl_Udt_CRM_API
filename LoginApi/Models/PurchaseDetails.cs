@@ -12,8 +12,8 @@ namespace LoginApi.Models
         public int DeliveredDate { get; set; }
         public int Price { get; set; }
         public int Rating { get; set; }
-        public string UserId { get;set; }
-        [ForeignKey("UserId")]
-        public virtual UserLoginClass?User{ get; set; }
+        public int CompanyId { get;set; }
+        [ForeignKey("CompanyId")]
+        public virtual Companydetails? Company { get; set; }
     }
 }

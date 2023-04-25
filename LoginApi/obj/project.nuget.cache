@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xQbuWUBpSSey6fQP1PWyJy7I8hAADsmU60v4WBDVDvE1vsTbeU97qg3kZAIFr5m8trAJ6ETQ+Y9bGx5+x4OkeA==",
+  "dgSpecHash": "2n9tgZSTf1L2KWUDolwF89np6o17MTrA/mMgj4yyzLIYHvK/1IK3vg275v+v05H2rbDYxi51NOLn9EP71bNloA==",
   "success": true,
   "projectFilePath": "C:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,11 @@
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Exalca\\.nuget\\packages\\pdfsharpcore\\1.1.21\\pdfsharpcore.1.1.21.nupkg.sha512",
+    "C:\\Users\\Exalca\\.nuget\\packages\\polybioz.htmlrenderer.pdfsharp.core\\1.0.0\\polybioz.htmlrenderer.pdfsharp.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\Exalca\\.nuget\\packages\\sixlabors.core\\1.0.0-beta0008\\sixlabors.core.1.0.0-beta0008.nupkg.sha512",
+    "C:\\Users\\Exalca\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta0009\\sixlabors.fonts.1.0.0-beta0009.nupkg.sha512",
+    "C:\\Users\\Exalca\\.nuget\\packages\\sixlabors.imagesharp\\1.0.0-beta0006\\sixlabors.imagesharp.1.0.0-beta0006.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace LoginApi.Datas
         {
             
         }
-        public DbSet<UserLoginClass> Logincred { get; set; }
+        public DbSet<UserLoginClass> LoginCredential { get; set; }
         public DbSet<Companydetails> Companydetails { get; set; }
         public DbSet<PersonDetails> Persondetails { get; set; }
         public DbSet<PurchaseDetails> Purchasedetails { get; set; }

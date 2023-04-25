@@ -7,17 +7,17 @@ namespace LoginApi.Models
         [Key]
         public int PersonId { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string? Name { get; set; }
         [Required]
-        public string Designation { get; set; }
+        public string? Designation { get; set; }
         [Required]
-        public int MobileNo { get; set; }
+        public long MobileNo { get; set; }
         [Required]
-        public string Email { get; set; }
+        public string? Email { get; set; }
         [Required]
-        public string Photo { get; set; }
-        public string UserId { get; set; }
-        [ForeignKey("UserId")]
-        public virtual UserLoginClass users { get;set; }
+        public string? Photo { get; set; }
+        public int CompanyId { get; set; }
+        [ForeignKey("CompanyId")]
+        public virtual Companydetails? company { get;set; }
     }
 }

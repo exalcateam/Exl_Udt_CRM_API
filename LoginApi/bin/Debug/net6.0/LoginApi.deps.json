@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.12",
+          "Microsoft.TypeScript.MSBuild": "5.0.4",
           "Polybioz.HtmlRenderer.PdfSharp.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -285,6 +286,7 @@
           }
         }
       },
+      "Microsoft.TypeScript.MSBuild/5.0.4": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
@@ -759,6 +761,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.TypeScript.MSBuild/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fXuMICTqQZKbYyL8Hf1ZypgBSF2U1ZRYss3CL3nWSVLzUku9lESFgEFYgSNFLsO34i1tlkeWjXQ2q1ri3gkDiQ==",
+      "path": "microsoft.typescript.msbuild/5.0.4",
+      "hashPath": "microsoft.typescript.msbuild.5.0.4.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",

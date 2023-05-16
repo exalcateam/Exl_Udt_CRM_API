@@ -1,4 +1,5 @@
 ﻿using LoginApi.Datas;
+using LoginApi.Dto;
 using LoginApi.IRepositories;
 using LoginApi.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -57,24 +58,57 @@ namespace LoginApi.Controllers
         }
 
 
+        [HttpPatch]
+        public async Task<IActionResult> ForgotPassword(UserLoginClass user)
+        {
+            await _companyRepository.forgotpassword(user);
+            return Ok();
+        }
 
 
-        [HttpGet]
+        [HttpPatch]
+        public async Task<IActionResult> ChangePassword(ChangeUserPassword newUserPassword)
+        {
+            var a = await _companyRepository.changepassword(newUserPassword);
+            if(a == true)
+            {
+                return Ok();
+            }
+            else
+                return BadRequest();
+            
+        }
+
+
+
+        /*[HttpGet]
         public async Task<IActionResult> GetFile()
         {
-            var document  = new PdfSharpCore.Pdf.PdfDocument();
-            var html = "<h1>Santhosh M</h1>";
-            PdfGenerator.AddPdfPages(document,html,PageSize.A4);
+            var user = new UserLoginClass()
+            {
+                Username = "Santhosh M",
+                Password = "S@nthosh09",
+                Role = "Admin"
+            };
+            var document = new PdfSharpCore.Pdf.PdfDocument();
+            var html = System.IO.File.ReadAllText(@"./PdfTemplate/index.html");
+            PdfGenerator.AddPdfPages(document, html, PageSize.A4);
             byte[]? response = null;
-            using(MemoryStream stream = new MemoryStream())
+            using (MemoryStream stream = new MemoryStream())
             {
                 document.Save(stream);
                 response = stream.ToArray();
             }
             string Filename = "Sample.pdf";
-            return File(response,"application/pdf", Filename);
-        }
+            return File(response,"application/pdf",Filename);
+        }*/
 
+        [HttpDelete]
+        public async Task<IActionResult> DeleteAccount(string newaccount)
+        {
+            _companyRepository.deleteaccount(newaccount);
+            return Ok();
+        }
 
     }
 }

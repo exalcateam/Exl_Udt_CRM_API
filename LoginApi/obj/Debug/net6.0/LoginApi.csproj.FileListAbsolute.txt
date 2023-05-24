@@ -205,4 +205,3 @@ C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\HtmlRenderer.PdfSharp
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.Core.dll
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.Fonts.dll
 C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\SixLabors.ImageSharp.dll
-C:\Exalca\DotNet\Exl_Udt_CRM_API\LoginApi\bin\Debug\net6.0\libman.json

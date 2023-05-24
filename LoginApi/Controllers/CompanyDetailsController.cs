@@ -41,38 +41,9 @@ namespace LoginApi.Controllers
 
 
         [HttpGet]
-        public List<PersonDetails> GetPersonDetails(int id)
+        public List<PersonDetails> GetPersonDetails( int id)
         {
             return _companyRepository.getperson(id);
-        }
-
-
-        [HttpDelete]
-        public Task<bool> DeleteCompany(int id)
-        {
-           return  _companyRepository.deletecompany(id);
-        }
-
-
-        [HttpDelete]
-        public Task<bool> DeletePerson(int id)
-        {
-            return _companyRepository.deleteperson(id);
-        }
-
-
-        [HttpPut]
-        public async Task<IActionResult> EditPerson(EditPersonDetails newperson)
-        {
-            await _companyRepository.editperson(newperson);
-            return Ok();
-        }
-
-        [HttpPut]
-        public async Task<IActionResult> EditCompany(Companydetails editcompany)
-        {
-            await _companyRepository.editcompany(editcompany);
-            return Ok();
         }
 
     }

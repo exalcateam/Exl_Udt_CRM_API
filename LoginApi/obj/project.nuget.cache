@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V89QZVLEvM/7ZWd04CLoLQ/5SJGI5oN0Z3DIBTUsZPvrJoF0lgFwfxGUkPAF7m9rMFGDa8tcWaMioIBNKbmnnQ==",
+  "dgSpecHash": "2n9tgZSTf1L2KWUDolwF89np6o17MTrA/mMgj4yyzLIYHvK/1IK3vg275v+v05H2rbDYxi51NOLn9EP71bNloA==",
   "success": true,
   "projectFilePath": "C:\\Exalca\\DotNet\\Exl_Udt_CRM_API\\LoginApi\\LoginApi.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,6 @@
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.typescript.msbuild\\5.0.4\\microsoft.typescript.msbuild.5.0.4.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Exalca\\.nuget\\packages\\pdfsharpcore\\1.1.21\\pdfsharpcore.1.1.21.nupkg.sha512",
